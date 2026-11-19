@@ -1,3 +1,7 @@
 npm pkg set type=module scripts.test="playwright test"
 npm install --save-dev @playwright/test@~1.63.0 @faker-js/faker@~10.6.0
 npx playwright install chromium
+
+## Ejecución de pruebas
+npx playwright test --reporter=list
+npx playwright show-report
