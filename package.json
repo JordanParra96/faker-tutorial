@@ -1,0 +1,25 @@
+{
+  "name": "faker-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JordanParra96/faker-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/JordanParra96/faker-tutorial/issues"
+  },
+  "homepage": "https://github.com/JordanParra96/faker-tutorial#readme",
+  "devDependencies": {
+    "@faker-js/faker": "~10.6.0",
+    "@playwright/test": "~1.63.0"
+  }
+}
